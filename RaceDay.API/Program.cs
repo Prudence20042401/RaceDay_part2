@@ -8,10 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Session configured
 
-// ---------------------------------------------------------------
-// Authentication: cookie identifies the user and carries the role
-// used by [Authorize(Roles = "...")].
-// ---------------------------------------------------------------
 builder.Services.AddAuthentication(
     CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -36,10 +32,7 @@ builder.Services.AddAuthentication(
 
 builder.Services.AddAuthorization();
 
-// ---------------------------------------------------------------
-// Server-side session: the user ID and role are stored on the
-// server (in memory) when a user logs in and cleared on logout.
-// ---------------------------------------------------------------
+
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
