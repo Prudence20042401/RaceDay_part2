@@ -3,6 +3,8 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
+//Role property
 namespace RaceDay.API.Models
 {
     [Table("Users")]
