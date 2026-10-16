@@ -1,7 +1,9 @@
 # RaceDay API - Part 2
 
 ## Project description
-RaceDay is a REST API for managing South African running, walking and cycling events. Organisers create events and categories, view enrolments for their events, confirm enrolments and record results. Participants browse events, enrol in an event category, and view their own enrolments and results.
+RaceDay is a web-based event management system designed specifically for the South African road running, walking, and cycling community.
+The platform allows Event Organisers to create and manage events, categories, and participant results, while Participants can browse upcoming events, enter events, and track their personal performance history.
+The system supports role-based access with distinct interfaces for Organisers and Participants.
 
 ## Technologies
 - C# and ASP.NET Core Web API (.NET 8)
