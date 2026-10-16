@@ -6,8 +6,9 @@ The platform allows Event Organisers to create and manage events, categories, an
 The system supports role-based access with distinct interfaces for Organisers and Participants.
 
 ### CI build screenshot
-.
+![Uploading part2 Workflow.png…]()
 
+## Build Status - GREEN
 ### Part 1: System Planning ✅ (Complete)
 - ERD design with 8 entities
 - API endpoint planning
