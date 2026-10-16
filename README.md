@@ -89,10 +89,8 @@ The tests use an in-memory database, so they do not need SQL Server. They are sp
 The workflow is `.github/workflows/dotnet.yml`. It restores, builds and tests the solution on every push and pull request.
 
 
-<!-- ![CI build](docs/ci-build-success.png) -->
-
 ## Video presentation
-**YouTube video:** TODO - add your unlisted link.
+https://youtu.be/-ym_SpHc0ds?si=LplI8bWlrQ0nQ3pw
 
 ## Reference
 I used Claude (Anthropic) to review my API code against the assignment brief and to help refactor controllers to use DTOs, add Swagger comments and expand the unit tests. 
