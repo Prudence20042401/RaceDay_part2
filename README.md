@@ -5,6 +5,18 @@ RaceDay is a web-based event management system designed specifically for the Sou
 The platform allows Event Organisers to create and manage events, categories, and participant results, while Participants can browse upcoming events, enter events, and track their personal performance history.
 The system supports role-based access with distinct interfaces for Organisers and Participants.
 
+### Part 1: System Planning ✅ (Complete)
+- ERD design with 8 entities
+- API endpoint planning
+- Database schema creation
+- CI/CD setup
+
+### Part 2: API Development 
+- RESTful API with ASP.NET Core
+- Entity Framework Core integration
+- Role-based authentication
+- Unit testing
+- Swagger documentation
 
 ### System Roles
 
@@ -23,19 +35,15 @@ The system supports role-based access with distinct interfaces for Organisers an
 - Track personal race results and performance
 - Upload profile picture
 
+### How roles are managed
+Anyone can register as a Participant. To register as an **Organiser** a user must also supply the **organiser invite code** (`OrganiserInviteCode` in `appsettings.json`, default `RACEDAY-ORGANISER-2026`). Without a valid code the API returns `403 Forbidden`. Change the code before real use, and do not commit a real secret to a public repository (you can override it with an environment variable called `OrganiserInviteCode`).
+
 ## Technologies
 - C# and ASP.NET Core Web API (.NET 8)
 - Entity Framework Core (code-first) with SQL Server
 - Swagger / OpenAPI (with XML comments)
 - xUnit for automated tests (in-memory database)
 - GitHub Actions for continuous integration
-
-## User roles
-- **Organiser:** creates, updates and deletes their own events; manages categories for their own events; views and confirms enrolments for their events; records, corrects and deletes results; manages their own profile.
-- **Participant:** views events and categories; enrols in an event by choosing a category; views their own enrolments and results; manages their own profile.
-
-### How roles are managed
-Anyone can register as a Participant. To register as an **Organiser** a user must also supply the **organiser invite code** (`OrganiserInviteCode` in `appsettings.json`, default `RACEDAY-ORGANISER-2026`). Without a valid code the API returns `403 Forbidden`. Change the code before real use, and do not commit a real secret to a public repository (you can override it with an environment variable called `OrganiserInviteCode`).
 
 ## Authentication and session
 - Passwords are hashed with ASP.NET Core's `PasswordHasher` before they are stored.
