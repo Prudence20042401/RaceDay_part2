@@ -126,6 +126,7 @@ namespace RaceDay.API.Controllers
 
         /// <summary>
         /// Logs in and starts a server-side session holding the user's ID and role.
+        ///
         /// </summary>
         /// <response code="200">Logged in. The session cookie is set.</response>
         /// <response code="401">Email or password is wrong.</response>
