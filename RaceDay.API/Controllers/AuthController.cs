@@ -33,13 +33,10 @@ namespace RaceDay.API.Controllers
 
         /// <summary>
         /// Registers a new account as an Organiser or a Participant.
-        /// </summary>
-        /// <remarks>
         /// Participants must supply a date of birth in the past.
         /// Organisers must supply an organisation name, a phone number and the
         /// organiser invite code (so that not just anyone can become an Organiser).
         /// The password is hashed before it is stored.
-        /// </remarks>
         /// <response code="200">Account created.</response>
         /// <response code="400">Missing or invalid details.</response>
         /// <response code="403">Organiser invite code missing or wrong.</response>
