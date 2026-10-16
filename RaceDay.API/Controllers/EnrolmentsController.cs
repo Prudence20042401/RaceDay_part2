@@ -31,6 +31,7 @@ namespace RaceDay.API.Controllers
                 EnrolmentDate = e.EnrolmentDate
             });
 
+
         /// <summary>
         /// Enters the logged-in Participant into an event in the chosen category.
         /// </summary>
