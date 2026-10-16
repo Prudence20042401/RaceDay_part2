@@ -37,6 +37,7 @@ namespace RaceDay.API.Controllers
                 .ToListAsync());
         }
 
+
         /// <summary>
         /// Lists the categories of one event. Open to everyone.
         /// </summary>
