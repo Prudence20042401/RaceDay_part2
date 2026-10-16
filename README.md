@@ -5,6 +5,24 @@ RaceDay is a web-based event management system designed specifically for the Sou
 The platform allows Event Organisers to create and manage events, categories, and participant results, while Participants can browse upcoming events, enter events, and track their personal performance history.
 The system supports role-based access with distinct interfaces for Organisers and Participants.
 
+
+### System Roles
+
+### Organiser
+- Create, edit, and delete events
+- Manage event categories (age groups and distance categories)
+- Capture participant results (finish times and positions)
+- View all event enrolments
+- Upload event banner images
+
+### Participant
+- Create an account and manage profile
+- Browse upcoming events with filtering options
+- Enter events by selecting a category
+- View personal enrolment history
+- Track personal race results and performance
+- Upload profile picture
+
 ## Technologies
 - C# and ASP.NET Core Web API (.NET 8)
 - Entity Framework Core (code-first) with SQL Server
