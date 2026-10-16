@@ -1,4 +1,4 @@
-# RaceDay API - Part 2
+# RaceDay Event Management API - Part 2
 
 ## Project description
 RaceDay is a web-based event management system designed specifically for the South African road running, walking, and cycling community.
