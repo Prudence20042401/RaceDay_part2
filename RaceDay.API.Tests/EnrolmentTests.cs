@@ -2,6 +2,7 @@ using System.Net;
 using System.Net.Http.Json;
 using Xunit;
 
+
 namespace RaceDay.API.Tests
 {
     public class EnrolmentTests : ApiTestBase
