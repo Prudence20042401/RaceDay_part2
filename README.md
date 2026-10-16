@@ -92,5 +92,5 @@ TODO: after a green run, save a screenshot as `docs/ci-build-success.png` and sh
 ## Video presentation
 **YouTube video:** TODO - add your unlisted link.
 
-## AI-use disclosure
-TODO: edit this to describe honestly how you used AI. Example: "I used Claude (Anthropic) to review my API code against the assignment brief and to help refactor controllers to use DTOs, add Swagger comments and expand the unit tests. I reviewed the changes and can explain the code in my video."
+## Reference
+I used Claude (Anthropic) to review my API code against the assignment brief and to help refactor controllers to use DTOs, add Swagger comments and expand the unit tests. 
