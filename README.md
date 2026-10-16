@@ -6,7 +6,7 @@ The platform allows Event Organisers to create and manage events, categories, an
 The system supports role-based access with distinct interfaces for Organisers and Participants.
 
 ### CI build screenshot
-(docs/build.png)
+![Uploading part2 Workflow.png…]()
 
 ## Build Status - GREEN
 ### Part 1: System Planning ✅ (Complete)
