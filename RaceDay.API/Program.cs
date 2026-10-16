@@ -54,10 +54,10 @@ builder.Services.AddControllers()
             System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
 
-// ---------------------------------------------------------------
+
 // Swagger: XML comments on the controllers become the endpoint
 // descriptions shown in the Swagger UI.
-// ---------------------------------------------------------------
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
