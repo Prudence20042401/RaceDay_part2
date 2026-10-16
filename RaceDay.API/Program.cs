@@ -6,6 +6,8 @@ using RaceDay.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Session configured
+
 // ---------------------------------------------------------------
 // Authentication: cookie identifies the user and carries the role
 // used by [Authorize(Roles = "...")].
