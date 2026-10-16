@@ -5,6 +5,9 @@ RaceDay is a web-based event management system designed specifically for the Sou
 The platform allows Event Organisers to create and manage events, categories, and participant results, while Participants can browse upcoming events, enter events, and track their personal performance history.
 The system supports role-based access with distinct interfaces for Organisers and Participants.
 
+### CI build screenshot
+.
+
 ### Part 1: System Planning ✅ (Complete)
 - ERD design with 8 entities
 - API endpoint planning
@@ -84,8 +87,6 @@ The tests use an in-memory database, so they do not need SQL Server. They are sp
 ## GitHub Actions CI
 The workflow is `.github/workflows/dotnet.yml`. It restores, builds and tests the solution on every push and pull request.
 
-### CI build screenshot
-TODO: after a green run, save a screenshot as `docs/ci-build-success.png` and show it here:
 
 <!-- ![CI build](docs/ci-build-success.png) -->
 
